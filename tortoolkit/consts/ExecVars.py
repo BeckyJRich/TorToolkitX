@@ -6,17 +6,17 @@ except:
         # Set true if its VPS
         IS_VPS = False
 
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "d692515312741702751ad5525dbd91c3"
+        API_ID = ,2469678
+        BOT_TOKEN = "1742944982:AAFzrgVz0nv9p3LjEToJqtsqM24ULkaz654"
+        BASE_URL_OF_BOT = "https://laomaozao.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [-521884514]
+        OWNER_ID = 1317637067
 
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -38,7 +38,7 @@ except:
 
         # DB URI for access
         DATABASE_URL = (
-            "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+            "postgres://wbimpmtnnonomb:b82465d0aef8ac5f4848a086e383b12656050660b1659f14558e02c0aadf5057@ec2-35-168-145-180.compute-1.amazonaws.com:5432/d108q5ehr87d8g"
         )
 
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
@@ -55,26 +55,26 @@ except:
 
         # This value will be considered only if Rclone is True - this may be defied now ;)
         # Cuz at least one needs to be Ture at a time either RCLONE or Leech.
-        LEECH_ENABLED = True
+        LEECH_ENABLED = Flase
 
         # Will be enabled once its set
         # For vps change it to True if config loaded
         RCLONE_ENABLED = False
 
         # If the user fails to select whether to use rclone or telegram to upload this will be the deafult.
-        DEFAULT_TIMEOUT = "leech"
+        DEFAULT_TIMEOUT = "rclone"
 
         # For vps set path here or you can use runtime too
-        RCLONE_CONFIG = False
+        RCLONE_CONFIG = True
 
         # Name of the RCLONE drive from the config
-        DEF_RCLONE_DRIVE = ""
+        DEF_RCLONE_DRIVE = "1234DR"
 
         # Max size of a playlist that is allowed (Number of videos)
         MAX_YTPLAYLIST_SIZE = 20
 
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 100
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
