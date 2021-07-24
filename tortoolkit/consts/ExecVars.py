@@ -7,7 +7,7 @@ except:
         IS_VPS = False
 
         API_HASH = "d692515312741702751ad5525dbd91c3"
-        API_ID = ,2469678
+        API_ID = 2469678
         BOT_TOKEN = "1742944982:AAFzrgVz0nv9p3LjEToJqtsqM24ULkaz654"
         BASE_URL_OF_BOT = "https://laomaozao.herokuapp.com"
 
