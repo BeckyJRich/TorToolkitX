@@ -9,7 +9,7 @@ except:
         API_HASH = "d692515312741702751ad5525dbd91c3"
         API_ID = 2469678
         BOT_TOKEN = "1742944982:AAFzrgVz0nv9p3LjEToJqtsqM24ULkaz654"
-        BASE_URL_OF_BOT = "https://laomaozao.herokuapp.com"
+        BASE_URL_OF_BOT = "https://tiantiantao.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
@@ -37,10 +37,10 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DATABASE_URL = "postgres://ykautxpjomxxad:542f9221ec304d6a1c5c8145042198e5769cbe8870298f27a0fca2afda95b9b0@ec2-54-147-93-73.compute-1.amazonaws.com:5432/dbgnua9je5k4q0"
+        #DATABASE_URL = ""
 
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
-        # DATABASE_URL = "dbname=tortk user=postgres password=your-pass host=db port=5432"
+         DATABASE_URL = "postgres://lqsiepgqolqbfw:93acf8a6c67587a1440267ef4040fb4bcb88445a0046ad8eeaea82f5736e5603@ec2-54-83-82-187.compute-1.amazonaws.com:5432/da3tc6hlko544j"
 
         # MEGA CONFIG
         MEGA_ENABLE = False
@@ -53,11 +53,11 @@ except:
 
         # This value will be considered only if Rclone is True - this may be defied now ;)
         # Cuz at least one needs to be Ture at a time either RCLONE or Leech.
-        LEECH_ENABLED = Flase
+        LEECH_ENABLED = False
 
         # Will be enabled once its set
         # For vps change it to True if config loaded
-        RCLONE_ENABLED = False
+        RCLONE_ENABLED = True
 
         # If the user fails to select whether to use rclone or telegram to upload this will be the deafult.
         DEFAULT_TIMEOUT = "rclone"
